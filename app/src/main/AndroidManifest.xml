@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson4">
         <activity
+            android:name=".NightActivity"
+            android:theme="@style/Theme.Lesson4.Night"
+            android:exported="false" />
+        <activity
             android:name=".ui.CalcActivity"
             android:exported="true">
             <intent-filter>

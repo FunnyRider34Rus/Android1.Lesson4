@@ -16,4 +16,5 @@
     <string name="button_point">.</string>
     <string name="button_equals">=</string>
     <string name="button_plus">+</string>
+    <string name="settings">Button</string>
 </resources>

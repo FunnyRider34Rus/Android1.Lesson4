@@ -50,7 +50,6 @@ public class CalcActivity extends AppCompatActivity implements CalcView {
             }
         };
 
-
         findViewById(R.id.button_0).setOnClickListener(digitsClickListener);
         findViewById(R.id.button_1).setOnClickListener(digitsClickListener);
         findViewById(R.id.button_2).setOnClickListener(digitsClickListener);
@@ -61,7 +60,6 @@ public class CalcActivity extends AppCompatActivity implements CalcView {
         findViewById(R.id.button_7).setOnClickListener(digitsClickListener);
         findViewById(R.id.button_8).setOnClickListener(digitsClickListener);
         findViewById(R.id.button_9).setOnClickListener(digitsClickListener);
-
 
         Map<Integer, Operation> operation = new HashMap<>();
         operation.put(R.id.button_plus, Operation.ADD);
@@ -80,14 +78,12 @@ public class CalcActivity extends AppCompatActivity implements CalcView {
         findViewById(R.id.button_minus).setOnClickListener(operationsClickListener);
         findViewById(R.id.button_divide).setOnClickListener(operationsClickListener);
         findViewById(R.id.button_multiply).setOnClickListener(operationsClickListener);
-
         findViewById(R.id.button_equals).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 presenter.onSummKeyPressed();
             }
         });
-
         findViewById(R.id.button_point).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

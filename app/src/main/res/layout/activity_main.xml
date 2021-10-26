@@ -13,6 +13,7 @@
 
         <TextView
             android:id="@+id/txt_result"
+            style="@style/MyAppStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_columnSpan="4"
@@ -20,8 +21,7 @@
             android:gravity="right"
             android:textSize="@dimen/textSizeDefault"
             tools:ignore="RtlHardcoded"
-            tools:text="100500"
-            style="@style/MyAppStyle"/>
+            tools:text="100500" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_1"
@@ -29,8 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_1"
-            android:textSize="@dimen/textSizeButton"
-            />
+            android:textSize="@dimen/textSizeButton" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_2"
@@ -101,7 +100,8 @@
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button_8" />
+            android:text="@string/button_8"
+            android:textSize="@dimen/textSizeButton" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_9"

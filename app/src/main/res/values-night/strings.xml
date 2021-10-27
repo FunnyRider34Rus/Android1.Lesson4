@@ -16,4 +16,6 @@
     <string name="button_point">.</string>
     <string name="button_equals">=</string>
     <string name="button_plus">+</string>
+    <string name="fisrtModButton">Light mod</string>
+    <string name="secondModButton">Night mod</string>
 </resources>

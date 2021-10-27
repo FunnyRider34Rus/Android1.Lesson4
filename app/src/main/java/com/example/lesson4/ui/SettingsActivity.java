@@ -1,14 +1,16 @@
-package com.example.lesson4;
+package com.example.lesson4.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class NightActivity extends AppCompatActivity {
+import com.example.lesson4.R;
+
+public class SettingsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_night);
+        setContentView(R.layout.activity_settings);
     }
 }

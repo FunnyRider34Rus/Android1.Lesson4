@@ -1,10 +1,12 @@
 package com.example.lesson4.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.lesson4.presenter.Presenter;
@@ -19,7 +21,6 @@ import java.util.Map;
 public class CalcActivity extends AppCompatActivity implements CalcView {
 
     private TextView txtResult;
-
     private Presenter presenter;
 
     @Override
@@ -96,4 +97,10 @@ public class CalcActivity extends AppCompatActivity implements CalcView {
     public void showResult(String result) {
         txtResult.setText(result);
     }
+
+    public void onClickSettings (View view){
+        Intent intent = new Intent(CalcActivity.this, SettingsActivity.class);
+        startActivity(intent);
+    }
 }
+

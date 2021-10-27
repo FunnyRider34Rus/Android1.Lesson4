@@ -12,6 +12,7 @@
         android:layout_gravity="end"
         android:layout_margin="10dp"
         app:srcCompat="@drawable/ic_baseline_settings_24"
+        android:onClick="onClickSettings"
         tools:ignore="ContentDescription" />
 
     <GridLayout
